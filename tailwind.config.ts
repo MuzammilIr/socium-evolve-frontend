@@ -22,6 +22,8 @@ export default {
 			fontFamily: {
 				inter: ['Inter', 'sans-serif'],
 				roboto: ['Roboto', 'sans-serif'],
+				'space-grotesk': ['Space Grotesk', 'sans-serif'],
+				'jetbrains': ['JetBrains Mono', 'monospace'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
