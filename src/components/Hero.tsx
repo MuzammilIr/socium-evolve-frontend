@@ -9,14 +9,6 @@ const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-black via-gray-900 to-black opacity-80"></div>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center relative z-10">
         <div className="animate-fade-in">
-          <div className="flex justify-center mb-8">
-            <img 
-              src="/lovable-uploads/105a7628-faeb-4ca9-8379-4445cddf7059.png" 
-              alt="TechNex Banner" 
-              className="max-w-md w-full h-auto"
-            />
-          </div>
-          
           <h1 className="text-4xl md:text-6xl font-bold font-roboto mb-6 leading-tight">
             Pioneering
             <span className="block text-gold">Next-Gen Technology</span>
