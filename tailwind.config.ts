@@ -21,7 +21,7 @@ export default {
 		extend: {
 			fontFamily: {
 				inter: ['Inter', 'sans-serif'],
-				poppins: ['Poppins', 'sans-serif'],
+				roboto: ['Roboto', 'sans-serif'],
 			},
 			colors: {
 				border: 'hsl(var(--border))',
@@ -57,16 +57,8 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
-				sidebar: {
-					DEFAULT: 'hsl(var(--sidebar-background))',
-					foreground: 'hsl(var(--sidebar-foreground))',
-					primary: 'hsl(var(--sidebar-primary))',
-					'primary-foreground': 'hsl(var(--sidebar-primary-foreground))',
-					accent: 'hsl(var(--sidebar-accent))',
-					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
-					border: 'hsl(var(--sidebar-border))',
-					ring: 'hsl(var(--sidebar-ring))'
-				}
+				gold: 'rgb(212 175 55)',
+				'gold-dark': 'rgb(180 145 30)',
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
